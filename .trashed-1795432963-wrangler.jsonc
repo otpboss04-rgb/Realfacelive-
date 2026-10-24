@@ -1,8 +1,0 @@
-{
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "realface-live-full-test",
-  "main": "worker.js",
-  "compatibility_date": "2026-10-24",
-  "assets": { "directory": "./public", "binding": "ASSETS" },
-  "kv_namespaces": [{ "binding": "AUTH_KV" }]
-}
