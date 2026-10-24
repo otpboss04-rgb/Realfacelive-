@@ -1,2 +1,0 @@
-# Realfacelive-
-face swapping bot
