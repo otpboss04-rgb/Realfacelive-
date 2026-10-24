@@ -1,8 +1,17 @@
+
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "realfacelivebot1",
+  "name": "realfacelivenew1",
   "main": "worker.js",
   "compatibility_date": "2026-10-24",
-  "assets": { "directory": "./public", "binding": "ASSETS" },
-  "kv_namespaces": [{ " "AUTH_KV"  afc6ea4dc763476f86f79696fbb6fecd]
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "AUTH_KV",
+      "id": "afc6ea4dc763476f86f79696fbb6fecd"
+    }
+  ]
 }
